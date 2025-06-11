@@ -31,9 +31,8 @@ Pasos para el despliegue:
 
 3.  **Construir y levantar el contenedor:**
     ```sh
-docker-compose up
-```
-    Una vez completado, la aplicación estará disponible en:
-    **[http://localhost:8081](http://localhost:8081)**
+    docker-compose up
+    ```
+Una vez completado, la aplicación estará disponible en:  **[http://localhost:8081](http://localhost:8081)**
 
 ---
