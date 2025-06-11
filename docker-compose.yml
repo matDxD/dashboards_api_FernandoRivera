@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web-dashboard:
+    build: .
+    container_name: dashboard_challenge_app
+    ports:
+      - "8081:3000"

@@ -1,0 +1,101 @@
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #1a202c;
+}
+
+.totalCounter {
+    color: #718096;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.itemList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.itemList li {
+    padding: 8px 0;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.itemList li:last-child {
+    border-bottom: none;
+}
+
+.itemTitle {
+    display: block;
+    font-weight: 500;
+    color: #2d3748;
+}
+
+.itemAuthor {
+    display: block;
+    font-size: 0.875rem;
+    color: #a0aec0;
+}
+
+.dropdownSelect {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: rgb(36, 0, 0);
+}
+
+
+.detalleFila {
+
+  margin: 0; 
+  padding: 8px 0;
+}
+
+
+.conBordeSuperior {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #edf2f7;
+}
+
+.detalleEtiqueta {
+  display: block;
+  font-size: 0.8rem;
+  color: #718096;
+  font-weight: 500;
+}
+
+.detalleValor {
+  font-size: 0.9rem;
+  color: #2d3748;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px; 
+  border: 1px solid #000000;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box; 
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #4a90e2; 
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}

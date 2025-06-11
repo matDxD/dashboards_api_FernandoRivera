@@ -1,0 +1,43 @@
+.pageContainer {
+  padding: 32px;
+  background-color: #f7fafc;
+}
+
+.pageTitle, .subHeader {
+  color: #2d3748;
+}
+
+.pageTitle {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+.subHeader {
+  font-size: 1.5rem;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+
+.layoutSuperior {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 32px;
+  align-items: start;
+}
+
+
+.columnaDerechaSuperior {
+  display: grid;
+ 
+  grid-template-columns: 1fr 1fr; 
+  gap: 24px; 
+  align-items: start; 
+}
+
+
+.layoutInferior {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 32px;
+}

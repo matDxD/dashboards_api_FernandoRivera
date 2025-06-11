@@ -1,0 +1,66 @@
+.contenedor {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+  height: 100%;
+}
+
+.mensajeVacio {
+  color: #a0aec0;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.fila {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.fila:last-child {
+  border-bottom: none;
+}
+
+.etiqueta {
+  display: block;
+  font-weight: 500;
+  color: #718096;
+  margin-bottom: 4px;
+}
+
+.valor {
+  color: #2d3748;
+}
+
+.detalleHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px; 
+  padding-bottom: 16px; 
+  border-bottom: 1px solid #f0f0f0;
+}
+
+
+.detalleHeader h4 {
+  margin: 0;
+}
+
+.botonOrdenar {
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: #000000;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.botonOrdenar:hover {
+  background-color: #6b6b6b;
+}
+
+.fila:first-child {
+  padding-top: 0;
+}
